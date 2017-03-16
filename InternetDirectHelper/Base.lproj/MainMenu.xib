@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="InternetDirectHelper" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="z3T-zM-SdJ" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="InternetDirectHelper" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenu" destination="0NA-Z0-nkd" id="zt5-HJ-xEq"/>
+            </connections>
+        </customObject>
+        <menu id="0NA-Z0-nkd">
+            <items>
+                <menuItem title="Toggle WiFi" id="p9V-b4-QhE">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleWifiClicked:" target="z3T-zM-SdJ" id="pV5-JP-WMH"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Open Login Page" id="MIv-te-NES">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="openLoginClicked:" target="z3T-zM-SdJ" id="43b-A8-tmA"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="FkO-hb-D3q"/>
+                <menuItem title="Quit" id="594-Ns-gP9">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClickedWithSender:" target="z3T-zM-SdJ" id="9uD-Ac-iAN"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>

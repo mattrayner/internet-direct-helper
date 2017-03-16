@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969DA32E1E7A8F5400639D06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969DA32D1E7A8F5400639D06 /* AppDelegate.swift */; };
+		969DA3301E7A8F5400639D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969DA32F1E7A8F5400639D06 /* Assets.xcassets */; };
+		969DA3331E7A8F5400639D06 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 969DA3311E7A8F5400639D06 /* MainMenu.xib */; };
+		969DA33B1E7A937D00639D06 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969DA33A1E7A937D00639D06 /* StatusMenuController.swift */; };
+		969DA3411E7A9B8500639D06 /* toggle_wifi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 969DA3401E7A9B8500639D06 /* toggle_wifi.txt */; };
+		969DA3421E7A9B8C00639D06 /* toggle_wifi.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 969DA3401E7A9B8500639D06 /* toggle_wifi.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		969DA33E1E7A9A4700639D06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				969DA3421E7A9B8C00639D06 /* toggle_wifi.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		969DA32A1E7A8F5400639D06 /* InternetDirectHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetDirectHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		969DA32D1E7A8F5400639D06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		969DA32F1E7A8F5400639D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969DA3321E7A8F5400639D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		969DA3341E7A8F5400639D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969DA33A1E7A937D00639D06 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		969DA3401E7A9B8500639D06 /* toggle_wifi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = toggle_wifi.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969DA3271E7A8F5400639D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969DA3211E7A8F5400639D06 = {
+			isa = PBXGroup;
+			children = (
+				969DA32C1E7A8F5400639D06 /* InternetDirectHelper */,
+				969DA32B1E7A8F5400639D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		969DA32B1E7A8F5400639D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969DA32A1E7A8F5400639D06 /* InternetDirectHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969DA32C1E7A8F5400639D06 /* InternetDirectHelper */ = {
+			isa = PBXGroup;
+			children = (
+				969DA3401E7A9B8500639D06 /* toggle_wifi.txt */,
+				969DA32D1E7A8F5400639D06 /* AppDelegate.swift */,
+				969DA33A1E7A937D00639D06 /* StatusMenuController.swift */,
+				969DA32F1E7A8F5400639D06 /* Assets.xcassets */,
+				969DA3311E7A8F5400639D06 /* MainMenu.xib */,
+				969DA3341E7A8F5400639D06 /* Info.plist */,
+			);
+			path = InternetDirectHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969DA3291E7A8F5400639D06 /* InternetDirectHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969DA3371E7A8F5400639D06 /* Build configuration list for PBXNativeTarget "InternetDirectHelper" */;
+			buildPhases = (
+				969DA3261E7A8F5400639D06 /* Sources */,
+				969DA3271E7A8F5400639D06 /* Frameworks */,
+				969DA3281E7A8F5400639D06 /* Resources */,
+				969DA33E1E7A9A4700639D06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetDirectHelper;
+			productName = InternetDirectHelper;
+			productReference = 969DA32A1E7A8F5400639D06 /* InternetDirectHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969DA3221E7A8F5400639D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "RAYNER, Matthew";
+				TargetAttributes = {
+					969DA3291E7A8F5400639D06 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 969DA3251E7A8F5400639D06 /* Build configuration list for PBXProject "Internet Direct Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969DA3211E7A8F5400639D06;
+			productRefGroup = 969DA32B1E7A8F5400639D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969DA3291E7A8F5400639D06 /* InternetDirectHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969DA3281E7A8F5400639D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969DA3301E7A8F5400639D06 /* Assets.xcassets in Resources */,
+				969DA3331E7A8F5400639D06 /* MainMenu.xib in Resources */,
+				969DA3411E7A9B8500639D06 /* toggle_wifi.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969DA3261E7A8F5400639D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969DA33B1E7A937D00639D06 /* StatusMenuController.swift in Sources */,
+				969DA32E1E7A8F5400639D06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		969DA3311E7A8F5400639D06 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969DA3321E7A8F5400639D06 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		969DA3351E7A8F5400639D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		969DA3361E7A8F5400639D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		969DA3381E7A8F5400639D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InternetDirectHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.rayner.matt.InternetDirectHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		969DA3391E7A8F5400639D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InternetDirectHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.rayner.matt.InternetDirectHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969DA3251E7A8F5400639D06 /* Build configuration list for PBXProject "Internet Direct Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969DA3351E7A8F5400639D06 /* Debug */,
+				969DA3361E7A8F5400639D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969DA3371E7A8F5400639D06 /* Build configuration list for PBXNativeTarget "InternetDirectHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969DA3381E7A8F5400639D06 /* Debug */,
+				969DA3391E7A8F5400639D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 969DA3221E7A8F5400639D06 /* Project object */;
+}
